@@ -8,6 +8,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="./css/animate.css">
     <link rel=" shortcut icon" href="./img/hexa/1.gif">
 </head>
@@ -137,7 +138,7 @@
     <div id="resume" style="text-align:center">
         <div class="container">
             <h2>Resume</h2>
-            <a href="./saran resume-dark.pdf" download class="btn btn-outline-primary wow bounceInLeft" data-wow-delay=".8s">Download</a>
+            <a href="./Resume_new-1.pdf" download class="btn btn-outline-primary wow bounceInLeft" data-wow-delay=".8s">Download</a>
             <button type="button" class="btn btn-primary wow bounceInRight" data-wow-delay=".8s" data-toggle="modal" data-target="#exampleModalLong">
                 View Resume
             </button>
@@ -152,7 +153,7 @@
                             </button>
                         </div>
                         <div class="modal-body" style="overflow:hidden;width: 100%">
-                            <img src="./img/resume.jpg" width="100%" alt="resume">
+                            <img src="./img/resume.png" width="100%" alt="resume">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -182,10 +183,10 @@
     </div>
     <hr>
 
-    <div id="project" style="padding-top:85px; margin-bottom: 50px;">
+    <div id="project" style="m-height: 600px; padding-top:85px; margin-bottom: 50px;">
         <h1 style="font-size:55px; text-align:center;">Projects</h1>
         <div class="container ">
-            <div class=" card-cc" style="margin-top:50px;">
+            <!-- <div class=" card-cc" style="margin-top:50px;">
                 <div class="card wow bounceInUp" data-wow-delay=".8s">
                     <img class="card-img-top" src="./img/proj/client-Panel.png" height="200px" alt="Card image cap">
                     <div class="card-body">
@@ -214,9 +215,106 @@
                         <button class="btn btn-primary">View Source</button>
                     </div>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-md-3 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/client-Panel.png)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">ClientPanel</i></h4>
+                            <p>Client panel using react, redux and firebase with authentication</p>
+                            <div class="btn btn-group">
+                                <a href="https://github.com/asaran97/clientPanel-reactt" target="_blank" class="btn btn-sm btn-outline-success">View
+                                    Source
+                                </a>
+                                <a href="https://react-clientpanel-775c1.firebaseapp.com" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/contactmanager.png)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">ContactManager</i></h4>
+                            <p>Contact manager a complete CURD application using contexxt API</p>
+                            <div class="btn btn-group">
+                                <a href="https://github.com/asaran97/contactmanager-redux" target="_blank" class="btn btn-sm btn-outline-success">View
+                                    Source
+                                </a>
+                                <a href="https://asaran97.github.io/contactmanager/#/" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/github.jpg)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">ProfileFinder</i></h4>
+                            <p>Github profile finder using github api, to find the profile of the user and all comits</p>
+                            <div class="btn btn-group">
+                                <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/uber.jpg)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">Uber Analysis</i></h4>
+                            <p>Uber Analysis using R program to represent the need of uber in high traffic areas</p>
+                            <div class="btn btn-group">
+                                <a href="https://github.com/asaran97/uber-analysis" target="_blank" class="btn btn-sm btn-outline-success">View
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row">
+                <div class="col-md-6 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/facereg.jpg)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">Face Recognition</i></h4>
+                            <p>Face recognition: Created with React and ..... API</p>
+                            <div class="btn btn-group">
+                                <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 cen">
+                    <div class="flip-card">
+                        <div class="front" style="background-image:url(../img/proj/typeNspeek.png)">
+                        </div>
+                        <div class="back">
+                            <h4><i class="text-success">Type N Hear</i></h4>
+                            <p>It is used to speak the text provided in any tone and in any Language with pure javascript</p>
+                            <div class="btn btn-group">
+                                <a href="https://github.com/asaran97/voice-recognition-app" target="_blank" class="btn btn-sm btn-outline-success">View
+                                    Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
+    <hr>
+    <div class="clear-fix"></div>
     <div id="contact">
         <div class="container-fluid bg-cl">
             <h1 style="text-align:center; padding-top: 30px;">Contact</h1>
