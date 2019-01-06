@@ -91,7 +91,7 @@
             <div class="row clearfix">
                 <div class="col-md-5 center" style="display:flex; justify-content:center">
                     <div data-tilt>
-                        <img src="./img/hexa/1.gif" class="wow bounceInLeft" data-wow-delay=".6s" data-wow-duration=".6s" height="300px" alt="">
+                        <img src="./img/hexa/1.gif" class="wow bounceInUp" data-wow-delay=".6s" data-wow-duration=".6s" height="300px" alt="">
                     </div>
                 </div>
                 <div class="col-md-1"></div>
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-5 wow bounceInLeft" data-wow-delay=".8s" style="text-align:center">
+                <div class="col-md-5 wow bounceInUp" data-wow-delay=".7s" style="text-align:center">
                     <br>
                     <h3>Who's this guy?</h3>
                     <h5>I'm the Front-End Developer. <br>I have serious passion for UI effects, animations and creating intuitive,
@@ -138,10 +138,15 @@
     <div id="resume" style="text-align:center">
         <div class="container">
             <h2>Resume</h2>
-            <a href="./Resume_new-1.pdf" download class="btn btn-outline-primary wow bounceInLeft" data-wow-delay=".8s">Download</a>
-            <button type="button" class="btn btn-primary wow bounceInRight" data-wow-delay=".8s" data-toggle="modal" data-target="#exampleModalLong">
+
+            <a href="./Resume_new-1.pdf" download class="btn btn-outline-primary wow bounceInUp" data-wow-delay=".5s">Download</a>
+
+
+
+            <button type="button" class="btn btn-primary wow bounceInUp" data-wow-delay=".6s" data-toggle="modal" data-target="#exampleModalLong">
                 View Resume
             </button>
+
             <!-- Modal -->
             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
@@ -183,127 +188,155 @@
     </div>
     <hr>
 
-    <div id="project" style="m-height: 600px; padding-top:85px; margin-bottom: 50px;">
+    <div id="project" style="min-height: 600px; padding-top:85px; margin-bottom: 50px;">
         <h1 style="font-size:55px; text-align:center;">Projects</h1>
         <div class="container ">
-            <!-- <div class=" card-cc" style="margin-top:50px;">
-                <div class="card wow bounceInUp" data-wow-delay=".8s">
-                    <img class="card-img-top" src="./img/proj/client-Panel.png" height="200px" alt="Card image cap">
-                    <div class="card-body">
-                        <h4 class="card-text">
-                            Client panel
-                        </h4>
-                        <p>Client Panel- Using Angular and firebase . Authentication, adminstrator service</p>
-                        <button class="btn btn-primary">View Source</button>
-                    </div>
-                </div>
-                <div class="card wow bounceInUp" data-wow-delay=".9s">
-                    <img class="card-img-top" src="./img/proj/bac-ground-gen.png" height="200px" alt="Card image cap">
 
-                    <div class="card-body">
-                        <h4 class="card-text">BackGround-Generator</h4>
-                        <p>A Background generator using pure JavaScript</p>
-                        <button class="btn btn-primary">View Source</button>
-                    </div>
-                </div>
-                <div class=" wow bounceInUp card " data-wow-delay="1s">
-                    <img class="card-img-top" src="./img/proj/Voice recognition.png" height="200px" alt="Card image cap">
-
-                    <div class="card-body">
-                        <h4 class="card-text">type-N-hear</h4>
-                        <p>Translator App that converts text to voice[any lang] using Speech-API</p>
-                        <button class="btn btn-primary">View Source</button>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="row">
-                <div class="col-md-3 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/client-Panel.png)">
-                        </div>
-                        <div class="back">
-                            <h4><i class="text-success">ClientPanel</i></h4>
-                            <p>Client panel using react, redux and firebase with authentication</p>
-                            <div class="btn btn-group">
-                                <a href="https://github.com/asaran97/clientPanel-reactt" target="_blank" class="btn btn-sm btn-outline-success">View
-                                    Source
-                                </a>
-                                <a href="https://react-clientpanel-775c1.firebaseapp.com" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+            <div class="row ">
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".5s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/client-Panel.png)">
+                                    <div class="inner">
+                                        <p>ClientPanel</p>
+                                        <span>ReactJS,redux,,firebase</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Client panel using react, redux and firebase with authentication</p>
+                                        <div class="btn btn-group">
+                                            <a href="https://github.com/asaran97/clientPanel-reactt" target="_blank" class="btn btn-sm btn-outline-success">View
+                                                Source
+                                            </a>
+                                            <a href="https://react-clientpanel-775c1.firebaseapp.com" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/contactmanager.png)">
-                        </div>
-                        <div class="back">
-                            <h4><i class="text-success">ContactManager</i></h4>
-                            <p>Contact manager a complete CURD application using contexxt API</p>
-                            <div class="btn btn-group">
-                                <a href="https://github.com/asaran97/contactmanager-redux" target="_blank" class="btn btn-sm btn-outline-success">View
-                                    Source
-                                </a>
-                                <a href="https://asaran97.github.io/contactmanager/#/" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".5s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/contactmanager.png)">
+                                    <div class="inner">
+                                        <p>Contact manager</p>
+                                        <span>ReactJS</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Contact manager a complete CURD application using contexxt API</p>
+                                        <div class="btn btn-group">
+                                            <a href="https://github.com/asaran97/contactmanager-redux" target="_blank" class="btn btn-sm btn-outline-success">View
+                                                Source
+                                            </a>
+                                            <a href="https://asaran97.github.io/contactmanager/#/" target="_blank" class="btn btn-sm btn-outline-success">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/github.jpg)">
-                        </div>
-                        <div class="back">
-                            <h4><i class="text-success">ProfileFinder</i></h4>
-                            <p>Github profile finder using github api, to find the profile of the user and all comits</p>
-                            <div class="btn btn-group">
-                                <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/uber.jpg)">
-                        </div>
-                        <div class="back">
-                            <h4><i class="text-success">Uber Analysis</i></h4>
-                            <p>Uber Analysis using R program to represent the need of uber in high traffic areas</p>
-                            <div class="btn btn-group">
-                                <a href="https://github.com/asaran97/uber-analysis" target="_blank" class="btn btn-sm btn-outline-success">View
-                                    Source
-                                </a>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".5s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/github.jpg)">
+                                    <div class="inner">
+                                        <p>Profile Finder</p>
+                                        <span>Vanilla javascript</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Github profile finder using github api, to find the profile of the user and all
+                                            comits
+                                        </p>
+                                        <div class="btn btn-group">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/facereg.jpg)">
-                        </div>
-                        <div class="back">
-                            <h4><i class="text-success">Face Recognition</i></h4>
-                            <p>Face recognition: Created with React and ..... API</p>
-                            <div class="btn btn-group">
-                                <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/uber.jpg)">
+                                    <div class="inner">
+                                        <p>Uber-analysis</p>
+                                        <span>R</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Uber Analysis using R program to represent the need of uber in high traffic areas</p>
+                                        <div class="btn btn-group">
+                                            <a href="https://github.com/asaran97/uber-analysis" target="_blank" class="btn btn-sm btn-outline-success">View
+                                                Source
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 cen">
-                    <div class="flip-card">
-                        <div class="front" style="background-image:url(../img/proj/typeNspeek.png)">
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/facereg.jpg)">
+                                    <div class="inner">
+                                        <p>Face Recognition</p>
+                                        <span>React</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>Face recognition: Created with React and ..... API</p>
+                                        <div class="btn btn-group">
+                                            <a href="#" target="_blank" class="btn btn-sm btn-outline-success">View Source</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="back">
-                            <h4><i class="text-success">Type N Hear</i></h4>
-                            <p>It is used to speak the text provided in any tone and in any Language with pure javascript</p>
-                            <div class="btn btn-group">
-                                <a href="https://github.com/asaran97/voice-recognition-app" target="_blank" class="btn btn-sm btn-outline-success">View
-                                    Source
-                                </a>
+                    </div>
+                </div>
+                <div class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
+                    <div class="cols">
+                        <div class="col" ontouchstart="this.classList.toggle('hover');">
+                            <div class="container2">
+                                <div class="front" style="background-image: url(../img/proj/typeNspeek.png)">
+                                    <div class="inner">
+                                        <p>Type N Hear</p>
+                                        <span>Java</span>
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="inner">
+                                        <p>It is used to speak the text provided in any tone and in any Language with pure
+                                            javascript
+                                        </p>
+                                        <div class="btn btn-group">
+                                            <a href="https://github.com/asaran97/voice-recognition-app" target="_blank" class="btn btn-sm btn-outline-success">View
+                                                Source
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

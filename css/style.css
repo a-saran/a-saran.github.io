@@ -161,7 +161,7 @@
 /* split start */
 :root{
 	--container-bg-color:#333;
-	--left-bg-color: rgba(220, 70, 70, 0.7);
+	--left-bg-color: rgba(156, 156, 156, 0.7);
 	--left-button-hover-color: rgba(172, 13, 13, 0.3);
 	--right-bg-color: rgba(43,43,43,0.8);
 	--right-button-hover-color: rgba(92,92,92,0.3);
